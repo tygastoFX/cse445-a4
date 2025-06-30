@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ERROR 1: Root element name is Hotel instead of Hotels -->
-<Hotel xmlns="http://tempuri.org/Hotels.xsd"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://tempuri.org/Hotels.xsd Hotels.xsd">
-
+<Hotel>
     <!-- Hotel Example -->
     <Hotel Rating="4.2">
         <Name>Westin</Name>
@@ -82,5 +79,4 @@
             <Zip>85283</Zip>
         </Address>
     </Hotel>
-
 </Hotel> 
